@@ -16,7 +16,7 @@ form.login_form {
     padding: 10px;
 }
 body {
-   background-color: #FFF9CA;
+   background-color: #BAC9E4;
 }
 
 h2 {
@@ -42,9 +42,7 @@ h3 {
 }
 .btn {
     font-family: 'Montserrat';
-    color: #FFF9CA;
-    background-color: #821902;
-    border-radius: 8px;
+    border-radius: 50px;
 }
 .i1 {
     margin-left: 0;
@@ -104,7 +102,7 @@ ul{
 }
 
 #navbar-b {
-    font-family: 'Montserrat'; align-content: right; color: #821902; margin: 10px;
+    font-family: 'Montserrat'; align-content: right; color: #BAC9E4; margin: 10px;
     font-weight: bold;
     margin-top: auto;
     font-size: 24px;
@@ -115,30 +113,29 @@ ul{
     
     width: 120px;
     margin-top: auto;
-    border-color:#821902;
+    border-color:#3F72AF;
     font-family: 'Montserrat';
-    font-weight: bold;
     font-size: 24px;
+    color: #BAC9E4;
 }
 
 #bt-pr:hover {
-   background-color: #FFF9CA;
-    color:#821902;
-    border-color:#FFF9CA;
+   background-color: #BAC9E4;
+    color:#3F72AF;
+    border-color:#BAC9E4;
 }
 
 #bt-zr:hover {
-   background-color: #FFF9CA;
-    color:#821902;
-    border-color:#FFF9CA;
+   background-color: #BAC9E4;
+    color:#3F72AF;
+    border-color:#BAC9E4;
 }
 
 #bt-zr {
-    
     width: 290px;
     margin-top: auto;
-    border-color:#821902;
+    border-color:#3F72AF;
     font-family: 'Montserrat';
-    font-weight: bold;
     font-size: 24px;
+    color: #BAC9E4;
 }
