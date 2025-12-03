@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    height: 100vh;
+    background: #FFF9CA;
+    font-family: 'Montserrat';
+    
+}
+
+.game-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 2px solid #333;
+    background: #70c5ce;
+}
+
+.butt {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color:#FFF9CA;
+  border-radius: 6px;
+  background-color: #821902;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  font-size: 25px;
+  margin-right: 150px;
+  margin-top: 280px;
+  transition: background-color 0.3s ease;
+  border-color:#821902;
+}
+
+.butt:hover {
+    background-color: #FFF9CA;
+    color:#821902;
+    border-color:#FFF9CA;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    color: #FFF9CA;
+    background-color: #821902;
+    border-radius: 8px;
+}
+
+#list1 {
+    height: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#list1 li{
+    float: left;
+    height: 50px;
+    margin-right: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#li1 {
+    background-color: #821902;
+    color: #FFF9CA;
+    border-color:#821902;
+    border-radius: 8px;
+    padding-top: 8px;
+}
+
+#li1 a{
+    color: #FFF9CA;
+}
+
+#navbar-b {
+    font-family: 'Montserrat'; align-content: right; color: #821902; margin: 10px;
+    font-weight: bold;
+    margin-top: auto;
+    font-size: 24px;
+
+}
+
+#bt-pr {
+    
+    width: 120px;
+    margin-top: auto;
+    border-color:#821902;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#bt-pr:hover {
+   background-color: #FFF9CA;
+    color:#821902;
+    border-color:#FFF9CA;
+}
+
+#bt-zr:hover {
+   background-color: #FFF9CA;
+    color:#821902;
+    border-color:#FFF9CA;
+}
+
+#bt-zr {
+    
+    width: 290px;
+    margin-top: auto;
+    border-color:#821902;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 24px;
+}
